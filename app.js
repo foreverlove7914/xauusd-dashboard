@@ -41,3 +41,4 @@ async function loadPrice() {
 loadPrice();
 
 setInterval(loadPrice, REFRESH_INTERVAL);
+loadIndicators();
