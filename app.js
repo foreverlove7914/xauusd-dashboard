@@ -12,7 +12,7 @@ function createChart() {
         container_id: "tvchart",
         width: "100%",
         height: 600,
-        symbol: "BINANCE:XAUTUSDT.P",
+        symbol: "BINANCE:XAUTUSDT"
         interval: convertInterval(TIMEFRAME),
         timezone: "Asia/Kuala_Lumpur",
         theme: "dark",
