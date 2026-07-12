@@ -1,15 +1,18 @@
-// =========================
-// XAUUSD Dashboard Config
-// =========================
+// ==========================
+// XAUUSD PRO Dashboard
+// ==========================
 
-// Gantikan dengan API key baharu anda
-const API_KEY = "49a783ba61ee47f6ab74abb1f008d953";
+// Masukkan API Key Twelve Data
+const API_KEY = "API_KEY_ANDA";
 
-// Endpoint API (Twelve Data)
+// API URL
 const BASE_URL = "https://api.twelvedata.com";
 
-// Simbol yang digunakan
-const SYMBOL =  "XAU/USD";
+// Symbol
+const SYMBOL = "XAU/USD";
 
-// Refresh setiap 5 saat
-const REFRESH_INTERVAL = 5000;
+// Timeframe lalai
+let TIMEFRAME = "5min";
+
+// Refresh data setiap 10 saat
+const REFRESH_INTERVAL = 10000;
