@@ -10,33 +10,7 @@ async function loadPrice() {
 
         if(data.price){
 
-            document.getElementById("price").innerHTML =
-                "$" + Number(data.price).toFixed(2);
-
-            document.getElementById("trend").innerHTML =
-                "🟢 LIVE";
-
-            
-
-        }else{
-
-            document.getElementById("price").innerHTML =
-                "API ERROR";
-
-            console.log(data);
-
-        }
-
-    }catch(error){
-
-        console.log(error);
-
-        document.getElementById("price").innerHTML =
-            "Connection Error";
-
-    }
-
-}
+        
 
 loadPrice();
 
