@@ -3,7 +3,7 @@
 // ==========================
 
 // Masukkan API Key Twelve Data
-const API_KEY = "API_KEY_ANDA";
+const API_KEY = "49a783ba61ee47f6ab74abb1f008d953";
 
 // API URL
 const BASE_URL = "https://api.twelvedata.com";
