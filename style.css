@@ -7,45 +7,59 @@ body{
 
 h1{
     text-align:center;
-    padding:20px;
     color:#FFD700;
+    padding:15px;
 }
 
-.info{
+.topbar{
     display:flex;
-    justify-content:center;
-    gap:20px;
     flex-wrap:wrap;
-    margin-bottom:20px;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
 }
 
-.card{
+.status{
+    background:#161b22;
+    padding:12px 18px;
+    border-radius:10px;
+    border:1px solid #30363d;
+    min-width:160px;
+    text-align:center;
+}
+
+select{
+    background:#161b22;
+    color:white;
+    border:1px solid #30363d;
+    padding:10px;
+    border-radius:8px;
+}
+
+#tvchart{
+    width:95%;
+    height:600px;
+    margin:auto;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.analysis{
+    width:95%;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+}
+
+.box{
     background:#161b22;
     border:1px solid #30363d;
     border-radius:10px;
-    width:180px;
     text-align:center;
     padding:15px;
-    box-shadow:0 0 10px rgba(255,215,0,.15);
 }
 
-.card h2{
-    margin:0;
-    font-size:18px;
-    color:#58a6ff;
-}
-
-.card p{
-    font-size:24px;
-    font-weight:bold;
-    margin-top:10px;
-}
-
-#chart{
-    width:95%;
-    height:500px;
-    margin:auto;
-    border:1px solid #30363d;
-    border-radius:12px;
-    background:#111827;
+.box h3{
+    color:#00ff88;
 }
