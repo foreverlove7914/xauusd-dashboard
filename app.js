@@ -16,8 +16,7 @@ async function loadPrice() {
             document.getElementById("trend").innerHTML =
                 "🟢 LIVE";
 
-            document.getElementById("signal").innerHTML =
-                "Menunggu Analisis...";
+            
 
         }else{
 
