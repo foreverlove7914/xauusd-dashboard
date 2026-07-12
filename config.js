@@ -3,7 +3,7 @@
 // =========================
 
 // Gantikan dengan API key baharu anda
-const API_KEY = "136a7f84cee842b484cbb4a13327131a";
+const API_KEY = "49a783ba61ee47f6ab74abb1f008d953";
 
 // Endpoint API (Twelve Data)
 const BASE_URL = "https://api.twelvedata.com";
