@@ -9,7 +9,7 @@ const API_KEY = "49a783ba61ee47f6ab74abb1f008d953";
 const BASE_URL = "https://api.twelvedata.com";
 
 // Symbol
-const SYMBOL = "XAUTUSDT";
+const SYMBOL = "XAUUSD";
 
 // Timeframe lalai
 let TIMEFRAME = "5min";
